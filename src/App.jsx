@@ -1,5 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { render } from 'react-dom';
+import { Routes, Route, Navigate, HashRouter } from 'react-router-dom';
 import axios from 'axios';
 import Navbar from './components/navbar/Navbar';
 import Lesson from './views/lessons/Lesson';
@@ -20,7 +19,7 @@ function App() {
     }
   );
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -32,7 +31,7 @@ function App() {
         </Route>
         <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
