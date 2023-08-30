@@ -1,6 +1,4 @@
-
-
-.title{
+.title {
   text-align: center;
   margin: 80px auto;
 }
@@ -12,26 +10,25 @@
   justify-content: space-between;
   grid-gap: 20px;
   &__card {
-    max-width: 300px;
-    width: 300px;
+    flex: 1;
     padding: 24px;
     border: 1px dashed purple;
     border-radius: 16px;
-    &-img{
+    &-img {
       border-radius: 50%;
       width: 100%;
     }
-    &-title{
+    &-title {
       margin-top: 20px;
       font-weight: 700;
       color: purple;
     }
-    &-text{
+    &-text {
       margin: 0;
     }
-    &-span{
+    &-span {
       color: rgb(0, 0, 0);
-      font-size: 18px;
+      font-size: 1.1rem;
     }
   }
 }
