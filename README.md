@@ -36,8 +36,7 @@ Rutas protegidas para el contenido exclusivo de los usuarios registrados.
 Autenticación
 Para acceder al contenido exclusivo, los usuarios deben iniciar sesión utilizando las siguientes credenciales:
 
-Nombre de usuario: JohnDoe
-
+* Nombre de usuario: JohnDoe
 * Contraseña: 1234
 * Si un usuario no registrado intenta acceder al contenido protegido, será redirigido a la ruta raíz ("/").
 
